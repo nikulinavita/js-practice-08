@@ -6,7 +6,7 @@
 - `style.css` 
 - `script.js` 
 - `README.md` 
-- `screenshots/
+- `screenshots/`
 
 ## Ответы на контрольные вопросы:
 
