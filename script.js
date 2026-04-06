@@ -192,7 +192,7 @@ async function loadPageData() {
     const reposData = await getRepos(currentUsername, currentPage);
     renderRepos(reposData);
     renderPagination(); 
-  } catch (error) { // <--- ЗДЕСЬ БЫЛА ОШИБКА, Я ВЕРНУЛ CATCH НА МЕСТО
+  } catch (error) {
     showError(error.message);
   } finally {
     hideLoader();
